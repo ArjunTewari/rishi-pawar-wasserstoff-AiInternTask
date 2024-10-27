@@ -3,7 +3,7 @@ import fitz  # PyMuPDF
 import os
 from pymongo import MongoClient
 
-# Connect to MongoDB
+# Connect to MongoDcdB
 client = MongoClient("mongodb+srv://arjuntewari0505:by3xJDiZXwvHkGN0@cluster0.gkth7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client['pdf_pipeline_db']
 collection = db['pdf_data']

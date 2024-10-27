@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80de4731-ea50-4c89-ac99-680f96566b9d" name="Changes" comment="Phase 1">
-      <change afterPath="$PROJECT_DIR$/pdf_pipeline/logs/pipeline.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_pipeline/src/logging_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_pipeline/src/pipeline_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdf_pipeline/src/summarizer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_pipeline/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/db_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/src/connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/keyword_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/src/keyword_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/logging_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/src/logging_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/src/pipeline_log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/pdf_ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/src/pdf_ingestion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/summarier.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/src/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/pipeline_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/src/pipeline_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf_pipeline/src/summarizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdf_pipeline/src/summarizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArjunTewari&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArjunTewari/rishi-pawar-wasserstoff-AiInternTask.git&quot;,
+    &quot;accountId&quot;: &quot;50007bd9-d8f0-446a-93c7-cdc9aed6cfe9&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -42,16 +53,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.connection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.keyword_extractor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pipeline_manager.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.connection.executor": "Run",
+    "Python.keyword_extractor.executor": "Run",
+    "Python.pdf_ingestion.executor": "Run",
+    "Python.pipeline_manager.executor": "Run",
+    "Python.summarizer.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +91,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

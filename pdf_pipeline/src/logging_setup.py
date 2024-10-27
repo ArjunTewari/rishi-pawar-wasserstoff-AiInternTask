@@ -3,9 +3,10 @@ import os
 
 def setup_logging():
     """
-    Set up logging configuration. Logs will be stored in '/logs/pipeline.log'.
+    Set up logging configuration. Logs will be stored in 'logs/pipeline.log'.
     """
-    log_dir = '/logs'
+    # Use a relative path for the logs directory
+    log_dir = 'logs'
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)  # Create logs directory if it doesn't exist
 
